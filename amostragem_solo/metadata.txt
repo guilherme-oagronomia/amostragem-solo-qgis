@@ -1,0 +1,20 @@
+[general]
+name=Amostragem de Solo
+qgisMinimumVersion=3.16
+description=Soil sampling plans (square cells, regular grid and hexagons) from a field boundary / Planos de amostragem de solo por célula, grade e hexágonos.
+about=Generates soil sampling plans from a field boundary polygon (a layer loaded in QGIS or a shapefile). Three methods are available: square cells, regular point grid and hexagons, driven by the sampling density in hectares per sample. Outputs sample points (numbered in a serpentine path) and sampling cells, reprojected to UTM when the input is geographic. Interface in Portuguese (pt-BR).
+version=0.2.0
+author=Guilherme
+email=guilherme@iaparaagronomos.com.br
+tags=soil, sampling, precision agriculture, grid, hexagon, solo, amostragem
+category=Vector
+icon=icon.svg
+homepage=https://github.com/guilherme-oagronomia/amostragem-solo-qgis
+repository=https://github.com/guilherme-oagronomia/amostragem-solo-qgis
+tracker=https://github.com/guilherme-oagronomia/amostragem-solo-qgis/issues
+experimental=False
+deprecated=False
+changelog=
+    0.2.0 - Bordas separadas por estradas/divisas passam a receber amostra própria (célula e hexágono); vértices dos hexágonos alinhados ao milímetro.
+    0.1.1 - Menu movido para Complementos.
+    0.1.0 - Versão inicial.
